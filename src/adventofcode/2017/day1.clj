@@ -24,5 +24,4 @@
                                           (when (= elem (get input (mod (+ shift i)
                                                                         (count input))))
                                             elem))
-                                        input))))
-  )
+                                        input)))))
