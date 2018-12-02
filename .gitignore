@@ -9,4 +9,5 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
-/resources/input*.txt
+/resources/2017/input*.txt
+/resources/2018/input*.txt

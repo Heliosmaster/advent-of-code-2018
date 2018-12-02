@@ -1,8 +1,8 @@
-(ns adventofcode-2018.day2
+(ns adventofcode.2018.day2
   (:require [clojure.string :as str]
             [clojure.java.io :as io]))
 
-(def input (str/split-lines (slurp (io/resource "input2.txt"))))
+(def input (str/split-lines (slurp (io/resource "2018/input2.txt"))))
 
 
 (defn solution1 [input]
