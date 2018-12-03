@@ -19,5 +19,4 @@
        (set (for [b1 input
                   b2 input
                   :when (and (not= b1 b2) (similar-boxes? b1 b2))]
-              (remove nil? (last (clojure.data/diff (vec b1) (vec b2)))))))
-  )
+              (remove nil? (last (clojure.data/diff (vec b1) (vec b2))))))))
