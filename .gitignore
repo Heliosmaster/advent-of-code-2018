@@ -11,3 +11,4 @@ pom.xml.asc
 .hg/
 /resources/2017/input*.txt
 /resources/2018/input*.txt
+/resources/2017/instructions.txt
